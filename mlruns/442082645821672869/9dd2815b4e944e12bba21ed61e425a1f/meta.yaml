@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/442082645821672869/9dd2815b4e944e12bba21ed61e425a1f/artifacts
+end_time: 1773108973307
+entry_point_name: ''
+experiment_id: '442082645821672869'
+lifecycle_stage: active
+run_id: 9dd2815b4e944e12bba21ed61e425a1f
+run_name: LR=0.01_BS=64_adam
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773108717260
+status: 3
+tags: []
+user_id: marwanamr

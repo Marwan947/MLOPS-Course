@@ -24,6 +24,8 @@ dataset = TensorDataset(torch.tensor(images))
 loader = DataLoader(dataset, batch_size=BATCH_SIZE, shuffle=True)
 
 # --- Generator ---
+
+
 class Generator(nn.Module):
     def __init__(self):
         super().__init__()

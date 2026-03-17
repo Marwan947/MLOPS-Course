@@ -10,6 +10,8 @@ IMG_SIZE = 28 * 28
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 # --- Generator (must match main.py) ---
+
+
 class Generator(nn.Module):
     def __init__(self):
         super().__init__()

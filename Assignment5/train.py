@@ -2,6 +2,7 @@ import os
 
 import mlflow
 import mlflow.sklearn
+import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
@@ -14,6 +15,9 @@ mlflow.set_experiment("Assignment5_Pipeline")
 df = pd.read_csv("data/train.csv")
 X = df[["sepal_length", "sepal_width", "petal_length", "petal_width"]].values
 y = df["label"].values
+
+rng = np.random.default_rng(seed=0)
+X = X + rng.normal(0, 0.5, X.shape)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 

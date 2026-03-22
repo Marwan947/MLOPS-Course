@@ -1,0 +1,6 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/Marwan947/MLOPS-Course.dvc
+    auth = basic
+    user = marwan947

@@ -3,3 +3,6 @@ torch
 torchvision
 numpy
 pandas
+scikit-learn
+dvc
+dvc-http

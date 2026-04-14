@@ -18,7 +18,7 @@ accuracy = run.data.metrics.get("accuracy")
 
 if accuracy is None:
     print("ERROR: 'accuracy' metric not found in MLflow run.")
-    sys.exit(1)q
+    sys.exit(1)
 
 THRESHOLD = 0.99
 print(f"Accuracy: {accuracy:.4f}, Threshold: {THRESHOLD}")

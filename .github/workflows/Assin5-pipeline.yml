@@ -1,8 +1,7 @@
 name: ML Training and Deployment Pipeline
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   validate:
